@@ -1,0 +1,8 @@
+title: AgileFlow Playbook
+description: A source-grounded Agile and Scrum workflow knowledge base
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
