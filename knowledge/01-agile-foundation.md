@@ -29,7 +29,7 @@ The Agile Manifesto identifies four value preferences:
 
 The preference on the left does not mean the item on the right has no value. The emphasis is on the items on the left.
 
-Classification: [AGILE]
+Classification: [ AGILE ]
 
 ---
 
