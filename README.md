@@ -112,7 +112,7 @@ AgileFlow does not attempt to prescribe one universal Agile process.
 
 ## Author
 
-**Ashish Jaiswal**
+**Ashish Kumar**
 
 AgileFlow was developed as an open knowledge and AI-agent framework for applying Agile and Scrum concepts with clearer source attribution and contextual reasoning.
 
