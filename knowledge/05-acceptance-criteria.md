@@ -505,3 +505,178 @@ Validation
 Definition of Done
      ↓
 Increment
+````
+
+This is a practical workflow, not a claim that every Scrum Team must use every step.
+
+Classification: [PRACTICE]
+
+The formal Scrum concepts within this workflow must still be distinguished from optional practices.
+
+---
+
+# 19. Acceptance Criteria and Testing
+
+Acceptance criteria can provide useful input for testing.
+
+They may help identify:
+
+* expected behavior
+* test scenarios
+* edge cases
+* negative cases
+* validation conditions
+
+However:
+
+> Acceptance criteria are not the same thing as a complete testing strategy.
+
+Testing may involve additional quality practices appropriate to the product.
+
+AgileFlow should not claim that acceptance criteria alone guarantee product quality.
+
+Classification: [PRACTICE]
+
+---
+
+# 20. Acceptance Criteria and Definition of Done
+
+A Product Backlog Item can satisfy its acceptance criteria but still fail to meet the Definition of Done.
+
+For example:
+
+Acceptance criteria may confirm that a feature behaves correctly.
+
+The Definition of Done may additionally require broader quality conditions.
+
+Therefore:
+
+> Acceptance Criteria ≠ Definition of Done
+
+Acceptance criteria are specific to the requirement.
+
+Definition of Done applies as the shared quality standard for the Increment.
+
+Classification:
+
+* Acceptance Criteria → [PRACTICE]
+* Definition of Done → [SCRUM]
+
+---
+
+# 21. Common Misconceptions
+
+### Misconception 1
+
+> "Acceptance criteria are required by Scrum."
+
+Correction:
+
+Acceptance criteria are a common Agile practice, not a formal Scrum requirement.
+
+---
+
+### Misconception 2
+
+> "Acceptance criteria and Definition of Done are the same."
+
+Correction:
+
+Acceptance criteria describe conditions specific to a requirement. Definition of Done describes the quality state required for work to be considered Done.
+
+---
+
+### Misconception 3
+
+> "Every story needs exactly three acceptance criteria."
+
+Correction:
+
+There is no universal Scrum rule requiring a specific number of acceptance criteria.
+
+The appropriate number depends on the requirement.
+
+---
+
+### Misconception 4
+
+> "Every acceptance criterion must use Given/When/Then."
+
+Correction:
+
+Given/When/Then is one useful format, not a mandatory Scrum requirement.
+
+---
+
+### Misconception 5
+
+> "More acceptance criteria always means a better requirement."
+
+Correction:
+
+Acceptance criteria should provide useful clarity. Unnecessary criteria can add noise and maintenance effort.
+
+---
+
+### Misconception 6
+
+> "Acceptance criteria should specify the database, framework, and code structure."
+
+Correction:
+
+Acceptance criteria generally focus on expected behavior and outcomes. Technical constraints should be included when they are actually part of the requirement.
+
+---
+
+### Misconception 7
+
+> "If acceptance criteria are written, the requirement is automatically complete."
+
+Correction:
+
+Important business rules, dependencies, assumptions, or unknowns may still exist.
+
+---
+
+# 22. Classification Reference
+
+| Concept                           | Classification |
+| --------------------------------- | -------------- |
+| Acceptance Criteria               | [PRACTICE]     |
+| Acceptance Scenarios              | [PRACTICE]     |
+| Given / When / Then               | [PRACTICE]     |
+| Positive scenarios                | [PRACTICE]     |
+| Negative scenarios                | [PRACTICE]     |
+| Edge-case analysis                | [PRACTICE]     |
+| Requirement validation            | [PRACTICE]     |
+| Testing based on criteria         | [PRACTICE]     |
+| Definition of Done                | [SCRUM]        |
+| Team-specific acceptance template | [TEAM]         |
+| Course-required acceptance format | [COURSE]       |
+| Unspecified requirement detail    | [UNKNOWN]      |
+
+---
+
+# 23. Core Acceptance Criteria Rule
+
+> Acceptance criteria are a complementary practice for clarifying and validating a Product Backlog Item. They are not a mandatory Scrum requirement.
+
+AgileFlow must:
+
+* preserve the original requirement
+* avoid inventing business rules
+* identify ambiguity
+* identify missing information
+* distinguish criteria from technical tasks
+* distinguish criteria from Definition of Done
+* use Given/When/Then only when useful
+* consider relevant positive and negative scenarios
+* consider meaningful edge cases
+* preserve explicit constraints
+* label assumptions
+* avoid unnecessary over-specification
+
+### Final principle
+
+> Acceptance criteria should make expected behavior clearer and more testable without turning unspecified assumptions into requirements.
+
